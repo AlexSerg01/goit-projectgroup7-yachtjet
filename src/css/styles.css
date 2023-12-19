@@ -7,11 +7,11 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./yachtjet-fleet.css');
-@import url('./choose-yacht.css');
+@import url('./about-us.css');
+@import url('./our-yachts.css');
 @import url('./advantages.css');
 @import url('./rent.css');
-@import url('./customers.css');
+@import url('./reviews.css');
 @import url('./footer.css');
 @import url('./modal-menu.css');
 :root {
