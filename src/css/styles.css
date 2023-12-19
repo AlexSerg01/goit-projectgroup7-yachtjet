@@ -1,8 +1,8 @@
 /**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
+|============================
+| include css partials with
+| default @import url()
+|============================
 */
 @import url('./reset.css');
 @import url('./header.css');
@@ -14,7 +14,6 @@
 @import url('./customers.css');
 @import url('./footer.css');
 @import url('./modal-menu.css');
-
 :root {
   font-family: Inter;
   font-size: 16px;
@@ -25,37 +24,4 @@
   --primary-white: #fbfbfb;
   --primary-green: #1b414b;
   --primary-black: #040306;
-}
-
-.container {
-  inline-size: 375px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-/* Планшети (з 768px) */
-@media screen and (min-width: 768px) {
-  .container {
-    inline-size: 768px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-}
-
-/* Десктоп (з 1280px) */
-@media screen and (min-width: 1280px) {
-  .container {
-    inline-size: 1280px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-}
-
-/* Десктоп (з 1440px) */
-@media screen and (min-width: 1440px) {
-  .container {
-    inline-size: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
 }
