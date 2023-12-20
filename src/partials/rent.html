@@ -38,7 +38,7 @@
             name="name"
             placeholder="Full Name"
             required
-            pattern=""
+            pattern="[A-Za-z]+\s[A-Za-z]+"
           />
         </label>
         <label>
@@ -47,7 +47,7 @@
             name="email"
             placeholder="Email"
             required
-            pattern=""
+            pattern="[A-Za-z0-9.]+@\w+\.\w+"
           /> </label
         ><label>
           <input
@@ -55,7 +55,7 @@
             name="tel"
             placeholder="Phone number"
             required
-            pattern=""
+            pattern="\+[0-9]{12}"
           /> </label
         ><textarea name="Comment" placeholder="Comment"></textarea>
         <button type="submit">Send</button>
