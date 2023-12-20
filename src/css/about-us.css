@@ -1,13 +1,135 @@
 /* Стилі для мобільних пристроїв тут */
 
+.about-us-section {
+  background-color: #0E1823;
+  margin: 0 20px;  
+}
+
+.about-us-container {
+  background-color: #FBFBFB;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  
+  max-width: 335px;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+
+.about-us-heading {
+  color: #1B414B;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  max-width: 295px;
+  padding: 40px 0px 0px 20px;
+}
+
+.about-us-list {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.about-us-item-first {
+  color: #1B414B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1; 
+  padding: 0 0 20px 0;
+  
+}
+
+.about-us-item-second {
+  color: #040306;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17; 
+  opacity: 0.4;
+  max-width: 295px;
+}
+
+.about-us-picture {
+border-radius: 24px;
+overflow: hidden;
+} 
+
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
+
+.about-us-section {
+  margin: 0 35px;
+  
+}
+
+.about-us-container {
+  max-width: 704px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.about-us-heading {
+  padding-top: 50px;
+  font-size: 48px;
+  max-width: 536px;
+  padding-left: 32px;
+}
+
+.about-us-list {
+  padding-left: 32px;
+}
+
+.about-us-item-first {
+  font-size: 23px;
+  max-width: 389px;
+  padding-bottom: 20px;
+}
+
+.about-us-item-second {
+  font-size: 13px;
+  line-height: 1.15;
+  max-width: 385px;
+}
+
 }
 
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
   /* Стилі для десктопу тут */
+
+  .about-us-section {
+    margin: 0 50px;
+  }
+  
+  .about-us-container {
+  max-width: 1180px;
+  flex-direction: row;
+  gap: 100px 189px; 
+  flex-wrap: wrap;
+
+  }
+  
+  .about-us-heading {
+  padding-top: 50px;
+  font-size: 48px;
+  max-width: 506px; 
+  padding-left: 50px;
+  padding-right: 0;
+  }
+
+  .about-us-list {
+  padding-top: 50px;
+  max-width: 354px;
+  }
+
+  .about-us-item-first {
+    font-size: 23px;
+  }
+  
+
+
 }
 
 /* Десктоп (з 1440px) */
