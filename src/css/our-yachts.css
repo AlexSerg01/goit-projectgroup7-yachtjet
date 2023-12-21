@@ -25,7 +25,6 @@
   justify-content: center;
   align-items: center;
   max-width: 334px;
-  max-height: 478px;
   flex-shrink: 0;
   width: 100%;
   background-color: #fbfbfb;
@@ -42,11 +41,14 @@
 }
 
 .yacht-name-div {
-  width: 272px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 22px;
   padding-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 16px;
   margin-top: 33px;
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
@@ -76,12 +78,12 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-bottom: 4px;
 }
 
 .property-tables {
   margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 100%;
   margin-bottom: 32px;
 }
 
@@ -102,7 +104,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.18;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 /* .yacht-list-li:not(:first-child) {

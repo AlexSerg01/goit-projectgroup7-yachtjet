@@ -7,7 +7,7 @@ export function rotateYachtsList() {
 
   var intervalId = setInterval(function () {
     rotateList(yachtsList, 1); // Передача 1 для руху вліво
-  }, 5000);
+  }, 10000);
 
   prevButton.addEventListener('click', function () {
     rotateList(yachtsList, -1); // Передача -1 для руху вправо
