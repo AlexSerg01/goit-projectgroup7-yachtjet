@@ -11,6 +11,14 @@
   margin-bottom: 40px;
 }
 
+.yachts-list {
+  display: flex;
+  overflow: hidden;
+  position: relative; /* Додано для коректного відображення вмісту */
+  width: 100%;
+  gap: 20px;
+}
+
 .yacht-list-li {
   display: flex;
   flex-direction: column;
@@ -19,6 +27,7 @@
   max-width: 334px;
   max-height: 478px;
   flex-shrink: 0;
+  width: 100%;
   background-color: #fbfbfb;
   border-radius: 24px;
   padding: 0 16px;
@@ -44,16 +53,21 @@
 }
 
 .arrow {
+  overflow: hidden;
   color: #1b414b;
-  font-size: 14px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.18;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .status {
+  width: 95px;
   color: #040306;
   font-size: 12px;
   font-style: normal;
@@ -61,6 +75,7 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .property-tables {
@@ -90,9 +105,9 @@
   letter-spacing: 0.02em;
 }
 
-.yacht-list-li:not(:first-child) {
+/* .yacht-list-li:not(:first-child) {
   display: none;
-}
+} */
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
@@ -152,7 +167,8 @@
   }
 
   .status {
-    text-wrap: nowrap;
+    width: 95px;
+    white-space: nowrap;
     font-size: 13px;
     line-height: 1.18;
   }
