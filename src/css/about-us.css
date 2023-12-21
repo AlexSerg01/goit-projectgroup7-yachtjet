@@ -2,21 +2,22 @@
 
 .about-us-section {
   background-color: #0E1823;
-  margin: 0 20px;  
+  margin: 0 20px;
+  padding-top: 20px;  
 }
 
-.main-about-us-container {
+.about-us-container {
   max-width: 335px;
   margin: 0 auto;
 }
 
-.about-us-container {
+.about-us-section-section-one {
   background-color: #FBFBFB;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
-  padding-bottom: 60px;
+  padding: 40px 20px 60px 20px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
 }
@@ -26,12 +27,6 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
-  padding: 40px 20px 0px 20px;
-}
-
-.about-us-list {
-padding-left: 20px;
-padding-right: 20px;
 }
 
 .about-us-item-first {
@@ -39,7 +34,7 @@ padding-right: 20px;
   font-size: 18px;
   font-weight: 400;
   line-height: 1; 
-  padding: 0 0 20px 0;
+  margin-bottom: 20px;
   
 }
 
@@ -51,11 +46,10 @@ padding-right: 20px;
   opacity: 0.4;
 }
 
-.test {
+.about-us-section-section-two {
 border-radius: 26px;
 overflow: hidden;
 margin-top: -20px;
-background-color:  #0E1823;;
 }
 
 
@@ -68,31 +62,22 @@ background-color:  #0E1823;;
   
 }
 
-.main-about-us-container {
+.about-us-container {
   max-width: 704px;
 }
 
-.about-us-container {
-  padding-bottom: 60px;
+.about-us-section-section-one {
+  padding: 50px 136px 70px 32px;
   gap: 50px;
 }
 
 .about-us-heading {
-  padding-top: 50px;
   font-size: 48px;
-  padding-left: 32px;
-  padding-right: 136px;
-}
-
-.about-us-list {
-  padding-left: 32px;
-  padding-right: 136px;
 }
 
 .about-us-item-first {
   font-size: 23px;
   max-width: 389px;
-  padding-bottom: 20px;
 }
 
 .about-us-item-second {
@@ -111,38 +96,23 @@ background-color:  #0E1823;;
     margin: 0 50px;
   }
 
-  .main-about-us-container {
+  .about-us-container {
     max-width: 1180px;
   }
   
-  .about-us-container {
-    padding-bottom: 120px;
+  .about-us-section-section-one {
   flex-direction: row;
   column-gap: 189px; 
-  flex-wrap: wrap;
-
+  padding: 50px 50px 120px 50px;
   }
   
   .about-us-heading {
-  padding-top: 50px;
-  font-size: 48px;
   max-width: 537px; 
-  padding-left: 50px;
-  padding-right: 0;
   }
 
   .about-us-list {
-  padding: 50px 50px 0 0;
   max-width: 354px;
-  
   }
-
-  .about-us-item-first {
-    font-size: 23px;
-    text-align: left;
-  }
-  
-
 
 }
 
