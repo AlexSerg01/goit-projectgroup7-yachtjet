@@ -1,12 +1,103 @@
 /* Стилі для мобільних пристроїв тут */
+.hero-blok{
+  max-width: 335px;
+  margin: auto auto;
+}
+
+.hero-title{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1; 
+  letter-spacing: -0.02em;
+  color: #FBFBFB;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.hero-text{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.17; 
+  color: rgba(251, 251, 251, 0.70);
+  margin-bottom: 38px;
+}
+
+.hero-link{
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  width: 141px;
+  color: #FBFBFB;
+  padding: 14px 32px;
+  border-radius: 15px;
+  background: #1B414B;
+  margin: auto auto;
+  margin-bottom: 243px;
+  cursor: pointer;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-link:active{
+  background: #FBFBFB;
+  color: #1B414B;
+}
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
+  .hero-blok{
+    max-width: 704px;
+  }
+
+  .hero-title{
+    font-size: 70px;
+  }
+
+  .hero-text{
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    max-width: 597px;
+  }
+
+  .hero-link{
+    font-size: 18px;
+    line-height: 1.1;
+    width: 179px;
+    padding: 16px 40px;
+    margin-bottom: 215px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-link:hover,
+  .hero-link:focus{
+    background: #FBFBFB;
+    color: #1B414B;
+  }
   /* Стилі для планшетів тут */
 }
 
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
+  .hero-blok{
+    max-width: 1001px;
+  }
+
+  .hero-title{
+    font-size: 80px;
+  }
+
+  .hero-text{
+  }
+
+  .hero-link{
+    margin-bottom: 180px;
+  }
+
   /* Стилі для десктопу тут */
 }
 
