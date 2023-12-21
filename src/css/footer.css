@@ -8,6 +8,7 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  margin-top: 40px;
 }
 
 .container-logo-list {
@@ -59,8 +60,10 @@
 .social-icon {
   display: flex;
   gap: 8px;
-  justify-content: center;
   margin-top: 80px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-footer {
@@ -100,26 +103,37 @@
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   .container-footer {
-    display: flex;
     width: 736px;
     height: 418px;
     flex-shrink: 0;
     border-radius: 24px 24px 0px 0px;
     background: #1b414b;
+    margin-top: 70px;
+  }
+
+  .container-logo-list-icon {
+    display: flex;
+    margin-bottom: 96px;
+  }
+
+  .container-logo-list {
+    padding-top: 50px;
   }
 
   .logo-footer {
+    width: 74px;
+    height: 24px;
     font-size: 20px;
     letter-spacing: -0.6px;
     margin-left: 48px;
-    text-align: start;
-  }
-  .list-footer {
-    margin-left: 106px;
+    padding: 0;
   }
 
   .social-icon {
-    text-align: start;
+    display: flex;
+    margin-right: 48px;
+    margin-top: 0;
+    padding-top: 50px;
   }
 
   .title-footer {
@@ -133,15 +147,67 @@
     font-weight: 400;
     line-height: 100%; /* 32px */
     letter-spacing: -0.64px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 99px;
+  }
+
+  .list-footer {
+    margin-left: 106px;
+  }
+  .list-item-footer {
+    width: 91px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #fbfbfb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 11.7px */
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.3);
+  }
+
+  .items-footer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .adventures-privacy {
+    gap: 32px;
+  }
+  .adventures {
+    margin-left: 0;
   }
 }
 
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
-  /* Стилі для десктопу тут */
+  .container-footer {
+    width: 1230px;
+    height: 418px;
+    flex-shrink: 0;
+    border-radius: 24px 24px 0px 0px;
+    background: #1b414b;
+  }
+
+  .logo-footer {
+    margin-left: 75px;
+    padding: 0;
+  }
+
+  .social-icon {
+    display: flex;
+    padding-left: 0;
+    margin-right: 75px;
+  }
+
+  .list-footer {
+    margin-left: 326px;
+    margin-right: 311px;
+  }
 }
 
 /* Десктоп (з 1440px) */
