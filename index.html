@@ -20,7 +20,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/goit-projectgroup7-yachtjet/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-projectgroup7-yachtjet/assets/index-cfcf1bff.css">
+    <link rel="stylesheet" href="/goit-projectgroup7-yachtjet/assets/index-e8cf196c.css">
   </head>
   <!-- Спрайт Oleksandr-->
   <!-- Зображення Oleksandr-->
@@ -250,7 +250,84 @@
 </section>
 
       <!-- rent Олексій-->
-      
+      <section class="section-rent">
+  <div class="container section-rent-container">
+    <div class="section-rent-form-container">
+      <h2 class="section-rent-title">Rent a yacht now</h2>
+      <form class="section-rent-form">
+        <div class="section-rent-form-input-container">
+          <label class="section-rent-form-label">
+            <input
+              class="section-rent-form-input"
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              required
+              pattern="[A-Za-z]+\s[A-Za-z]+"
+              title="Enter your full first and last name: Alex Lex"
+            />
+          </label>
+          <label class="section-rent-form-label">
+            <input
+              class="section-rent-form-input"
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              pattern="[A-Za-z0-9.]+@\w+\.\w+"
+              title="Enter your email: test.r@host.com"
+            /> </label
+          ><label class="section-rent-form-label">
+            <input
+              class="section-rent-form-input"
+              type="tel"
+              name="tel"
+              placeholder="Phone number"
+              required
+              pattern="\+[0-9]{12}"
+              title="Enter your phone number in next format: +111111111111"
+            /> </label
+          ><textarea
+            class="section-rent-form-textarea"
+            name="Comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="section-rent-form-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="section-rent-img-cotainer">
+      <picture class="section-rent-img">
+        <source
+          srcset="
+            ../images/section-5-rent/desk/section-rent-desk.jpg    1x,
+            ../images/section-5-rent/desk/section-rent-desk@2x.jpg 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ../images/section-5-rent/tab/section-rent-tab.jpg    1x,
+            ../images/section-5-rent/tab/section-rent-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../images/section-5-rent/mob/section-rent-mob.jpg    1x,
+            ../images/section-5-rent/mob/section-rent-mob@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="../images/section-5-rent/tab/section-rent-tab.jpg"
+          alt="Yacht"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
       <!-- reviews Michael -->
       
     </main>
