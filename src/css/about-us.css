@@ -5,16 +5,20 @@
   margin: 0 20px;  
 }
 
+.main-about-us-container {
+  max-width: 335px;
+  margin: 0 auto;
+}
+
 .about-us-container {
   background-color: #FBFBFB;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
-  
-  max-width: 335px;
-  border-radius: 24px;
-  margin: 0 auto;
+  padding-bottom: 60px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
 }
 
 .about-us-heading {
@@ -22,9 +26,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: -0.02em;
-  max-width: 295px;
-  padding: 40px 0px 0px 20px;
+  padding: 40px 20px 0px 20px;
 }
 
 .about-us-list {
@@ -47,13 +49,15 @@ padding-right: 20px;
   font-weight: 400;
   line-height: 1.17; 
   opacity: 0.4;
-  max-width: 295px;
 }
 
-.about-us-picture {
-border-radius: 24px;
+.test {
+border-radius: 26px;
 overflow: hidden;
-} 
+margin-top: -20px;
+background-color:  #0E1823;;
+}
+
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
@@ -64,21 +68,25 @@ overflow: hidden;
   
 }
 
-.about-us-container {
+.main-about-us-container {
   max-width: 704px;
-  margin: 0 auto;
+}
+
+.about-us-container {
+  padding-bottom: 60px;
   gap: 50px;
 }
 
 .about-us-heading {
   padding-top: 50px;
   font-size: 48px;
-  max-width: 536px;
   padding-left: 32px;
+  padding-right: 136px;
 }
 
 .about-us-list {
   padding-left: 32px;
+  padding-right: 136px;
 }
 
 .about-us-item-first {
@@ -102,11 +110,15 @@ overflow: hidden;
   .about-us-section {
     margin: 0 50px;
   }
+
+  .main-about-us-container {
+    max-width: 1180px;
+  }
   
   .about-us-container {
-  max-width: 1180px;
+    padding-bottom: 120px;
   flex-direction: row;
-  gap: 100px 189px; 
+  column-gap: 189px; 
   flex-wrap: wrap;
 
   }
@@ -114,18 +126,20 @@ overflow: hidden;
   .about-us-heading {
   padding-top: 50px;
   font-size: 48px;
-  max-width: 506px; 
+  max-width: 537px; 
   padding-left: 50px;
   padding-right: 0;
   }
 
   .about-us-list {
-  padding-top: 50px;
+  padding: 50px 50px 0 0;
   max-width: 354px;
+  
   }
 
   .about-us-item-first {
     font-size: 23px;
+    text-align: left;
   }
   
 
