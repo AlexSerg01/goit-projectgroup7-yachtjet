@@ -1,14 +1,11 @@
 /* Стилі для мобільних пристроїв тут */
 
 .about-us-section {
-  background-color: #0E1823;
-  margin: 0 20px;
-  padding-top: 20px;  
+  padding-top: 40px;  
 }
 
 .about-us-container {
-  max-width: 335px;
-  margin: 0 auto;
+  max-width: 365px;
 }
 
 .about-us-section-section-one {
@@ -57,13 +54,13 @@ margin-top: -20px;
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
 
-.about-us-section {
-  margin: 0 35px;
+  .about-us-section {
+    padding-top: 75px;  
+  }
   
-}
 
 .about-us-container {
-  max-width: 704px;
+  max-width: 734px;
 }
 
 .about-us-section-section-one {
@@ -84,7 +81,7 @@ margin-top: -20px;
   font-size: 13px;
   line-height: 1.15;
   max-width: 385px;
-}
+  }
 
 }
 
@@ -92,17 +89,13 @@ margin-top: -20px;
 @media screen and (min-width: 1280px) {
   /* Стилі для десктопу тут */
 
-  .about-us-section {
-    margin: 0 50px;
-  }
-
   .about-us-container {
-    max-width: 1180px;
+    max-width: 1210px;
   }
   
   .about-us-section-section-one {
   flex-direction: row;
-  column-gap: 189px; 
+  column-gap: 189px;
   padding: 50px 50px 120px 50px;
   }
   
