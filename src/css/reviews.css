@@ -90,8 +90,33 @@
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
+
+  .reviews-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .reviews-servise {
+    width: 704px;
+    font-size: 48px;
+  }
+
+  .reviews-servise-text {
+    width: 571px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.28; /* 116.667% */
+  }
+  .reviews-name-section {
+    margin-bottom: 75px;
+  }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-customers-list li:last-child {
+    display: none;
+  }
+}
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
   /* Стилі для десктопу тут */
