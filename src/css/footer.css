@@ -169,12 +169,28 @@
     text-transform: uppercase;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
   }
 
   .items-footer {
     display: flex;
     margin-bottom: 20px;
   }
+
+  .list-item-footer:focus {
+    color: #1b414b;
+  }
+  .list-item-footer:hover {
+    color: #1b414b;
+    background-color: #fbfbfb;
+  }
+
+  .social-icon-item {
+  }
+  .social-icon-item:hover {
+  }
+
   .adventures-privacy {
     gap: 32px;
     color: rgba(251, 251, 251, 0.4);
