@@ -1,7 +1,8 @@
 /* Стилі для мобільних пристроїв тут */
 
 .about-us-section {
-  padding-top: 40px;  
+  margin-top: -50px; 
+  padding-bottom: 40px;  
 }
 
 .about-us-container {
@@ -14,7 +15,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
-  padding: 40px 20px 60px 20px;
+  padding: 40px 20px 65px 20px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
 }
@@ -24,6 +25,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 .about-us-item-first {
@@ -32,7 +34,6 @@
   font-weight: 400;
   line-height: 1; 
   margin-bottom: 20px;
-  
 }
 
 .about-us-item-second {
@@ -46,25 +47,23 @@
 .about-us-section-section-two {
 border-radius: 26px;
 overflow: hidden;
-margin-top: -20px;
+margin-top: -25px;
 }
-
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
 
-  .about-us-section {
-    padding-top: 75px;  
-  }
-  
+.about-us-section {
+  padding-bottom: 75px;
+}
 
 .about-us-container {
   max-width: 734px;
 }
 
 .about-us-section-section-one {
-  padding: 50px 136px 70px 32px;
+  padding: 50px 136px 75px 32px;
   gap: 50px;
 }
 
@@ -90,13 +89,13 @@ margin-top: -20px;
   /* Стилі для десктопу тут */
 
   .about-us-container {
-    max-width: 1210px;
+  max-width: 1210px;
   }
   
   .about-us-section-section-one {
   flex-direction: row;
   column-gap: 189px;
-  padding: 50px 50px 120px 50px;
+  padding: 50px 50px 125px 50px;
   }
   
   .about-us-heading {
@@ -112,4 +111,13 @@ margin-top: -20px;
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
   /* Стилі для десктопу тут */
+
+.about-us-container {
+  max-width: 1370px;
+}
+
+.about-us-section-section-one {
+  column-gap: 299px;
+  }
+
 }
