@@ -38,6 +38,7 @@
   flex-shrink: 0;
   border-radius: 24px;
   margin-top: 16px;
+  object-fit: cover;
 }
 
 .yacht-name-div {
@@ -152,6 +153,7 @@
     width: 304px;
     height: 268px;
     flex-shrink: 0;
+    object-fit: cover;
   }
 
   .arrow {
