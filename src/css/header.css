@@ -1,5 +1,60 @@
 /* Стилі для мобільних пристроїв тут */
 
+.page-header {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.page-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  border: 1px solid #fbfbfb;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 42px;
+  width: 335px;
+}
+
+.header-menu {
+  display: none;
+}
+
+.header-logo {
+  color: #1b414b;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.header-socials {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-header-menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: 28px;
+    width: 28px;
+  }
+
+  .mobile-header-burger-btn-icon {
+    stroke: #1b414b;
+  }
+}
+
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
