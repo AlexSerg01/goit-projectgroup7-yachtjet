@@ -63,11 +63,6 @@
     padding-top: 75px;
     padding-bottom: 75px;
   }
-  .container {
-    inline-size: 768px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
 
   .advantages-container {
     display: flex;
@@ -129,12 +124,6 @@
     padding-bottom: 75px;
   }
 
-  .container {
-    inline-size: 1280px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-
   .advantages-container {
     display: flex;
     align-items: center;
@@ -187,10 +176,4 @@
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
   /* Стилі для десктопу тут */
-
-  .container {
-    inline-size: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
 }
