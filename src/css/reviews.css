@@ -35,16 +35,23 @@
   opacity: 0.4;
 }
 
-.reviews-customers {
+.reviews-customers-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-customers-list-item {
+  display: flex;
+  flex-direction: column;
   width: 335px;
   height: 282px;
   padding: 32px 8px;
-  flex-direction: column;
-  align-items: center;
   flex-shrink: 0;
   border-radius: 24px;
   background: #fbfbfb;
+  align-items: center;
+  text-align: center;
 }
 .reviews-customers-text {
   display: flex;
@@ -77,8 +84,9 @@
 .reviews-customers img {
   max-width: 100%;
   height: auto;
+
   display: block;
-  margin: 0 auto;
+
   border-radius: 50%;
 }
 
@@ -87,7 +95,7 @@
     display: none;
   }
 }
-/* Планшети (з 768px) */
+/* =====================Планшети (з 768px) =========================*/
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
 
@@ -105,10 +113,24 @@
     width: 571px;
     text-align: center;
     font-size: 14px;
-    line-height: 1.28; /* 116.667% */
+    line-height: 1.28;
   }
   .reviews-name-section {
     margin-bottom: 75px;
+  }
+  .reviews-customers-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+  }
+  .reviews-customers-list-item {
+    width: 335px;
+    height: 282px;
+    padding: 32px 8px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #fbfbfb;
   }
 }
 
@@ -117,9 +139,16 @@
     display: none;
   }
 }
-/* Десктоп (з 1280px) */
+/* ==================Десктоп (з 1280px)========================== */
 @media screen and (min-width: 1280px) {
   /* Стилі для десктопу тут */
+
+  .reviews-servise {
+    width: 854px;
+  }
+  .reviews-customers-list {
+    gap: 26px;
+  }
 }
 
 /* Десктоп (з 1440px) */
