@@ -1,7 +1,6 @@
-// У файлі script2.js
+import './js/modal-menu';
 import { rotateYachtsList } from './js/our-yachts';
 
-// Викликайте функцію, імпортовану з іншого файлу, коли DOM готовий
 document.addEventListener('DOMContentLoaded', function () {
   rotateYachtsList();
 });
