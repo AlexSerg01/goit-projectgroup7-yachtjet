@@ -109,7 +109,7 @@
 .list-item-footer:hover {
   color: #1b414b;
   background-color: #fbfbfb;
-  transition: backround-color all 0.3s ease-in-out;
+  transition: backround-color 0.3s ease-in-out;
 }
 
 .social-icon-item {
@@ -117,16 +117,16 @@
 }
 
 .social-icon-link {
-  transition: color all 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .social-icon-link:focus {
   stroke: rgba(251, 251, 251, 0.8);
-  transition: color all 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 .social-icon-link:hover {
   stroke: rgba(251, 251, 251, 0.8);
-  transition: color all 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
