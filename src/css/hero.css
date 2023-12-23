@@ -98,11 +98,12 @@
   }
 
   .hero-blok {
-    padding-top: 280px;
+    
     max-width: 704px;
   }
 
   .hero-title {
+    padding-top: 280px;
     font-size: 70px;
   }
 
@@ -158,15 +159,12 @@
   }
 
   .hero-blok {
-    padding-top: 235px;
-  }
-
-  .hero-blok {
     max-width: 1001px;
   }
 
   .hero-title {
     font-size: 80px;
+    padding-top: 235px;
   }
 
   .hero-link {
