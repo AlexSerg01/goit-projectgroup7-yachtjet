@@ -100,6 +100,34 @@
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.36px;
 }
+
+.list-item-footer:focus {
+  color: #1b414b;
+  transition: 0.3s ease-in-out;
+}
+
+.list-item-footer:hover {
+  color: #1b414b;
+  background-color: #fbfbfb;
+  transition: backround-color all 0.3s ease-in-out;
+}
+
+.social-icon-item {
+  fill: #fbfbfb;
+}
+
+.social-icon-link {
+  transition: color all 0.3s ease-in-out;
+}
+
+.social-icon-link:focus {
+  stroke: rgba(251, 251, 251, 0.8);
+  transition: color all 0.3s ease-in-out;
+}
+.social-icon-link:hover {
+  stroke: rgba(251, 251, 251, 0.8);
+  transition: color all 0.3s ease-in-out;
+}
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   .container-footer {
@@ -168,7 +196,7 @@
     text-transform: uppercase;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
-    transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
 
@@ -221,26 +249,6 @@
 
   .title-footer {
     width: 699px;
-  }
-
-  .list-item-footer:focus {
-    color: #1b414b;
-  }
-  .list-item-footer:hover {
-    color: #1b414b;
-    background-color: #fbfbfb;
-    transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .social-icon-item {
-    fill: #fbfbfb;
-  }
-
-  .social-icon-link:focus {
-    stroke: rgba(251, 251, 251, 0.8);
-  }
-  .social-icon-link:hover {
-    stroke: rgba(251, 251, 251, 0.8);
   }
 }
 
