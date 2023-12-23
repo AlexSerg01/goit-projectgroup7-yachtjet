@@ -50,6 +50,10 @@
   margin-top: -25px;
 }
 
+.about-us-photo {
+  background: url(<path-to-image>), lightgray -181.984px -4.244px / 182.464% 109.429% no-repeat;
+} 
+
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
