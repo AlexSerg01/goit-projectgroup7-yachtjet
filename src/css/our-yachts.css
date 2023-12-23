@@ -79,6 +79,7 @@
   text-transform: uppercase;
   white-space: nowrap;
   margin-bottom: 4px;
+  opacity: 0.4;
 }
 
 .property-tables {
@@ -99,6 +100,7 @@
   line-height: 1.18;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  opacity: 0.4;
 }
 
 .tab-len {
@@ -108,6 +110,7 @@
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  white-space: nowrap;
 }
 
 .our-yachts-rent-button-container {

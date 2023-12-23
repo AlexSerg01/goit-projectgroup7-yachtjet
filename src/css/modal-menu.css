@@ -14,6 +14,7 @@
 
   .mobile-menu-wrapper.is-open {
     transform: translateX(0%);
+    overflow: auto;
   }
 
   .mobile-menu-container {
