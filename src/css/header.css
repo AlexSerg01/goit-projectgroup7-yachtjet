@@ -57,15 +57,125 @@
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
-  /* Стилі для планшетів тут */
+  .page-header {
+    top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .page-header-wrapper {
+    padding-left: 28px;
+    padding-right: 28px;
+    min-height: 48px;
+    width: 704px;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 96px;
+  }
+
+  .header-logo {
+    color: #1b414b;
+    font-size: 20px;
+    margin-right: 109px;
+  }
+
+  .header-menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(27, 65, 75, 0.5);
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .accent-about,
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    background-color: rgba(27, 65, 75, 1);
+  }
+
+  .mobile-header-menu-btn {
+    display: none;
+  }
+
+  .header-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header-socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-socials-icon {
+    fill: rgba(27, 65, 75, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-socials-link:hover > .header-socials-icon,
+  .header-socials-link:focus > .header-socials-icon {
+    fill: rgba(6, 39, 48, 1);
+  }
 }
 
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
-  /* Стилі для десктопу тут */
+  .page-header {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .page-header-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1080px;
+  }
+
+  .header-nav {
+    margin-right: 281px;
+  }
+
+  .header-logo {
+    margin-right: 296px;
+  }
+
+  .accent-about {
+    background-color: rgba(27, 65, 75, 0.5);
+  }
 }
 
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
-  /* Стилі для десктопу тут */
+  .page-header-wrapper {
+    width: 1240px;
+  }
+
+  .header-nav {
+    margin-right: 362px;
+  }
+
+  .header-logo {
+    margin-right: 375px;
+  }
 }
