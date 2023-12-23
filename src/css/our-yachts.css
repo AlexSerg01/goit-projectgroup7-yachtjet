@@ -1,16 +1,293 @@
 /* Стилі для мобільних пристроїв тут */
-
-/* Планшети (з 768px) */
-@media screen and (min-width: 768px) {
-  /* Стилі для планшетів тут */
+.our-yachts-section-title {
+  max-width: 319px;
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 40px auto;
 }
 
-/* Десктоп (з 1280px) */
+.yachts-list {
+  display: flex;
+  overflow: hidden;
+  position: relative; /* Додано для коректного відображення вмісту */
+  width: 100%;
+  gap: 20px;
+}
+
+.yacht-list-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  padding: 0 16px;
+}
+
+.yacht-picture {
+  width: 302px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  margin-top: 16px;
+  object-fit: cover;
+  margin-bottom: 33px;
+}
+
+.yacht-name-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  gap: 22px;
+  padding-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+
+  border-bottom: 1px solid rgba(4, 3, 6, 0.1);
+}
+
+.arrow {
+  overflow: hidden;
+  color: #1b414b;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.status {
+  color: #040306;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  opacity: 0.4;
+}
+
+.property-tables {
+  margin-top: 0;
+  width: 270px;
+  margin-left: 32px;
+  margin-right: 32px;
+
+  margin-bottom: 32px;
+}
+
+.tab-property {
+  padding-right: 106px;
+  color: #040306;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  opacity: 0.4;
+}
+
+.tab-len {
+  color: #040306;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.our-yachts-rent-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.our-yachts-rent-button {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  background-color: inherit;
+  display: flex;
+  margin: 40px auto;
+  padding: 14px 32px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; /* Додаємо, щоб забрати підкреслення від посилання */
+}
+
+.our-yachts-rent-button:hover,
+.our-yachts-rent-button:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+  outline: none; /* Забираємо контур, який з'являється при фокусі */
+}
+
+/* ============================ */
+/* =====Планшети (з 768px)===== */
+/* ============================ */
+@media screen and (min-width: 768px) {
+  /* Стилі для планшетів тут */
+  .our-yachts-section-title {
+    max-width: 645px;
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin: 75px auto;
+  }
+
+  .yachts-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .yacht-list-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 336px;
+    flex-shrink: 0;
+    background-color: #fbfbfb;
+    border-radius: 24px;
+  }
+
+  .yacht-picture {
+    width: 304px;
+    height: 268px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .yacht-name-div {
+    width: 272px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .arrow {
+    overflow: hidden;
+    color: #1b414b;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+
+  .status {
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+
+  .tab-property {
+    padding-right: 104px;
+  }
+
+  .yacht-list-li:last-child {
+    display: none;
+  }
+
+  .our-yachts-rent-button {
+    font-size: 18px;
+    padding: 16px 40px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+}
+/* ============================= */
+/* ====Десктоп (з 1280px)======= */
+/* ============================= */
 @media screen and (min-width: 1280px) {
   /* Стилі для десктопу тут */
+  .our-yachts-section-title {
+    max-width: 714px;
+    font-size: 48px;
+    margin: 75px auto;
+  }
+
+  .yachts-list {
+    gap: 23px;
+  }
+
+  .yacht-list-li {
+    width: 377px;
+  }
+  .yacht-list-li:last-child {
+    display: flex;
+  }
+
+  .yacht-picture {
+    width: 345px;
+    height: 258px;
+  }
+
+  .yacht-name-div {
+    width: 313px;
+  }
+
+  .tab-property {
+    padding-right: 157px;
+  }
+
+  .tab-len {
+    white-space: nowrap;
+  }
 }
 
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
   /* Стилі для десктопу тут */
+  .yachts-list {
+    gap: 32px;
+  }
+
+  .yacht-list-li {
+    width: 392px;
+  }
+
+  .yacht-picture {
+    width: 360px;
+    height: 268px;
+  }
+
+  .yacht-name-div {
+    width: 328px;
+  }
+
+  .tab-property {
+    padding-bottom: 6px;
+  }
 }
