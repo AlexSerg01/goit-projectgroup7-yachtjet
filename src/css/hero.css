@@ -27,11 +27,11 @@
 
 .hero-blok {
   max-width: 335px;
-  margin: auto auto;
+  margin: 0 auto;
+  padding: 280px 0;
 }
 
 .hero-title {
-  padding-top: 260px;
   font-size: 32px;
   font-weight: 500;
   line-height: 1;
@@ -61,8 +61,7 @@
   padding: 14px 32px;
   border-radius: 15px;
   background: #1b414b;
-  margin: auto auto;
-  margin-bottom: 243px;
+  margin: 0 auto;
   cursor: pointer;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -98,7 +97,6 @@
   }
 
   .hero-blok {
-    
     max-width: 704px;
   }
 
