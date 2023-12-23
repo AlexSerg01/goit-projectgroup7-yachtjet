@@ -1,57 +1,60 @@
 /* Стилі для мобільних пристроїв тут */
 .container-footer {
+  width: 355px;
+  height: 412px;
   flex-shrink: 0;
   border-radius: 24px 24px 0px 0px;
   background: #1b414b;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
   margin-top: 40px;
-  padding: 0 30px;
 }
 
 .container-logo-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  row-gap: 20px;
   align-items: start;
   padding-top: 40px;
 }
 .logo-footer {
+  width: 52px;
+  height: 18px;
   flex-shrink: 0;
   color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: -0.42px;
+  padding-left: 30px;
   display: block;
-  max-width: 54px;
-  margin: 0 auto;
+  padding: 0;
+  margin-left: 30px;
 }
 
 .list-footer {
   display: flex;
   gap: 4px;
   align-items: center;
-  margin: 0 auto;
-  max-width: 210px;
+  margin-left: 37px;
 }
 
 .list-item-footer {
   flex-shrink: 0;
   color: #fbfbfb;
   text-align: center;
+  font-family: Inter;
   font-size: 9px;
   font-style: normal;
   font-weight: 400;
   line-height: 0.09em;
   text-transform: uppercase;
+  width: 66px;
+  height: 40px;
+  flex-shrink: 0;
   border-radius: 8px;
   background: rgba(251, 251, 251, 0.3);
   display: flex;
-  width: 66px;
-  height: 40px;
-  padding: 15px 12px;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icon {
@@ -64,7 +67,7 @@
 }
 
 .title-footer {
-  max-width: 279px;
+  width: 279px;
   color: #fbfbfb;
   text-align: center;
   font-family: Inter;
@@ -106,7 +109,7 @@
 .list-item-footer:hover {
   color: #1b414b;
   background-color: #fbfbfb;
-  transition: backround-color 0.3s ease-in-out;
+  transition: backround-color all 0.3s ease-in-out;
 }
 
 .social-icon-item {
@@ -114,16 +117,16 @@
 }
 
 .social-icon-link {
-  transition: color 0.3s ease-in-out;
+  transition: color all 0.3s ease-in-out;
 }
 
 .social-icon-link:focus {
   stroke: rgba(251, 251, 251, 0.8);
-  transition: color 0.3s ease-in-out;
+  transition: color all 0.3s ease-in-out;
 }
 .social-icon-link:hover {
   stroke: rgba(251, 251, 251, 0.8);
-  transition: color 0.3s ease-in-out;
+  transition: color all 0.3s ease-in-out;
 }
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
