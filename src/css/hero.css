@@ -1,61 +1,111 @@
 /* Стилі для мобільних пристроїв тут */
-.hero-blok{
-  max-width: 335px;
-  margin: auto auto;
+.hero-bg {
+  background-image: linear-gradient(
+      359deg,
+      rgba(17, 19, 31, 0.8) 42.62%,
+      rgba(17, 19, 31, 0.31) 84.12%,
+      rgba(17, 19, 31, 0) 99.94%
+    ),
+    url(../images/section-1-hero/mob/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #0e1823;
 }
 
-.hero-title{
+@media (min-resolution: 192dpi) {
+  .hero-bg {
+    background-image: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../images/section-1-hero/mob/hero-bg-mob@2x.jpg);
+  }
+}
+
+.hero-blok {
+  max-width: 335px;
+  margin: 0 auto;
+  padding: 280px 0;
+}
+
+.hero-title {
   font-size: 32px;
   font-weight: 500;
-  line-height: 1; 
+  line-height: 1;
   letter-spacing: -0.02em;
-  color: #FBFBFB;
+  color: #fbfbfb;
   text-align: center;
   margin-bottom: 24px;
 }
 
-.hero-text{
+.hero-text {
   text-align: center;
   font-size: 12px;
   font-weight: 300;
-  line-height: 1.17; 
-  color: rgba(251, 251, 251, 0.70);
+  line-height: 1.17;
+  color: rgba(251, 251, 251, 0.7);
   margin-bottom: 38px;
 }
 
-.hero-link{
+.hero-link {
   display: block;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
   letter-spacing: -0.02em;
   width: 141px;
-  color: #FBFBFB;
+  color: #fbfbfb;
   padding: 14px 32px;
   border-radius: 15px;
-  background: #1B414B;
-  margin: auto auto;
-  margin-bottom: 243px;
+  background: #1b414b;
+  margin: 0 auto;
   cursor: pointer;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-link:active{
-  background: #FBFBFB;
-  color: #1B414B;
+.hero-link:active {
+  background: #fbfbfb;
+  color: #1b414b;
 }
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
-  .hero-blok{
+  .hero-bg {
+    background-image: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../images/section-1-hero/tab/hero-bg-tab.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero-bg {
+      background-image: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../images/section-1-hero/tab/hero-bg-tab@2x.jpg);
+    }
+  }
+
+  .hero-blok {
     max-width: 704px;
   }
 
-  .hero-title{
+  .hero-title {
+    padding-top: 280px;
     font-size: 70px;
   }
 
-  .hero-text{
+  .hero-text {
     font-size: 16px;
     line-height: 1.4;
     margin-left: auto;
@@ -64,37 +114,58 @@
     max-width: 597px;
   }
 
-  .hero-link{
+  .hero-link {
     font-size: 18px;
     line-height: 1.1;
     width: 179px;
     padding: 16px 40px;
     margin-bottom: 215px;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .hero-link:hover,
-  .hero-link:focus{
-    background: #FBFBFB;
-    color: #1B414B;
+  .hero-link:focus {
+    background: #fbfbfb;
+    color: #1b414b;
   }
   /* Стилі для планшетів тут */
 }
 
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
-  .hero-blok{
+  .hero-bg {
+    background-image: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../images/section-1-hero/desk/hero-bg-desk.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero-bg {
+      background-image: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../images/section-1-hero/desk/hero-bg-desk@2x.jpg);
+    }
+  }
+
+  .hero-blok {
     max-width: 1001px;
   }
 
-  .hero-title{
+  .hero-title {
     font-size: 80px;
+    padding-top: 235px;
   }
 
-  .hero-text{
-  }
-
-  .hero-link{
+  .hero-link {
     margin-bottom: 180px;
   }
 
@@ -103,5 +174,26 @@
 
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
+  .hero-bg {
+    background-image: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../images/section-1-hero/desk1440/section-hero-bg-desk-1440.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero-bg {
+      background-image: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../images/section-1-hero/desk1440/section-hero-bg-desk-1440@2x.jpg);
+    }
+  }
   /* Стилі для десктопу тут */
 }

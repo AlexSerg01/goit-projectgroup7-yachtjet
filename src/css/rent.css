@@ -5,11 +5,11 @@
 }
 
 .section-rent-title {
-  color: #FBFBFB;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1;
-    margin-bottom: 40px;
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 40px;
 }
 
 .section-rent-form-container {
@@ -29,7 +29,7 @@
 }
 
 .section-rent-form-label {
-width: 100%;
+  width: 100%;
 }
 
 .section-rent-form-input {
@@ -39,8 +39,8 @@ width: 100%;
   padding-right: 18px;
   background-color: transparent;
   border-radius: 12px;
-  border: 1px solid rgba(251, 251, 251, 0.20);
-  color: rgba(251, 251, 251, 0.40);
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  color: rgba(251, 251, 251, 0.4);
   font-size: 12px;
   line-height: 1.16;
   outline: 0px solid transparent;
@@ -55,38 +55,39 @@ width: 100%;
   padding: 14px 18px;
   background-color: transparent;
   border-radius: 12px;
-  border: 1px solid rgba(251, 251, 251, 0.20);
-  color: rgba(251, 251, 251, 0.40);
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  color: rgba(251, 251, 251, 0.4);
   font-size: 12px;
   line-height: 1.16;
   outline: 0px solid transparent;
   transition: color 250ms ease-in-out, border 250ms ease-in-out;
 }
 
-.section-rent-form-input:focus, .section-rent-form-textarea:focus {
-  color: #FBFBFB;
-  border: 1px solid rgba(251, 251, 251, 0.50);
+.section-rent-form-input:focus,
+.section-rent-form-textarea:focus {
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
 .section-rent-form-btn {
-display: inline-flex;
-width: 122px;
-height: 46px;
-justify-content: center;
-align-items: center;
-border-radius: 15px;
-background: #1B414B;
-border: none;
-color: #FBFBFB;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.28;
-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  display: inline-flex;
+  width: 122px;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #1b414b;
+  border: none;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .section-rent-form-btn:active {
-  background: #FBFBFB;
-  color: #1B414B;
+  background: #fbfbfb;
+  color: #1b414b;
 }
 
 .section-rent-img-cotainer {
@@ -98,85 +99,86 @@ transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   .section-rent {
-      padding-top: 75px;
-      padding-bottom: 75px;
-    }
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
   .section-rent-title {
     font-size: 48px;
     margin-bottom: 50px;
-    }
-.section-rent-form {
-  gap: 50px;
-}
+  }
+  .section-rent-form {
+    gap: 50px;
+  }
 
-.section-rent-form-label {
-  width: 472px;
-}
+  .section-rent-form-label {
+    width: 472px;
+  }
 
-.section-rent-form-input {
-  font-size: 14px;
-  height: 54px;
-  line-height: 1.28;
-}
+  .section-rent-form-input {
+    font-size: 14px;
+    height: 54px;
+    line-height: 1.28;
+  }
 
-.section-rent-form-textarea {
-  padding: 18px;
-  font-size: 14px;
-  line-height: 1.28;
-  width: 472px;
-}
+  .section-rent-form-textarea {
+    padding: 18px;
+    font-size: 14px;
+    line-height: 1.28;
+    width: 472px;
+  }
 
-.section-rent-form-btn {
-  width: 194px;
-  height: 56px;
-  font-size: 18px;
-  line-height: 1.1;
-}
+  .section-rent-form-btn {
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
 
-.section-rent-img-cotainer {
-   max-width: 700px;
- }
+  .section-rent-img-cotainer {
+    max-width: 700px;
+  }
 
-.section-rent-container {
-  display: flex;
-}
+  .section-rent-container {
+    display: flex;
+  }
 }
 
 /* тільки планшет */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-.section-rent-form-container {
+  .section-rent-form-container {
     margin-bottom: 100px;
   }
 
-.section-rent-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
- 
+  .section-rent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
-.section-rent-img-cotainer {
+  .section-rent-img-cotainer {
     max-width: 658px;
     max-height: 534px;
   }
 
- .section-rent-container {
-   flex-direction: row-reverse;
-   gap: 50px;
-   justify-content: center;
- }
+  .section-rent-container {
+    flex-direction: row-reverse;
+    gap: 50px;
+    justify-content: center;
+  }
 
-.section-rent-form-btn:hover {
-  background: #FBFBFB;
-  color: #1B414B;
-}
+  .section-rent-form-btn:hover {
+    background: #fbfbfb;
+    color: #1b414b;
+  }
 }
 
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
-  /* Стилі для десктопу тут */
+  .section-rent-img-cotainer {
+    max-width: 768px;
+  }
 }

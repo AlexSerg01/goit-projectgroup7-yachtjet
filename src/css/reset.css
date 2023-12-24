@@ -57,17 +57,17 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.container {
-  inline-size: 375px;
-  margin: 0 auto;
-  padding: 0 15px;
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
-
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   .container {
-    inline-size: 768px;
+    max-width: 768px;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -76,7 +76,7 @@ body {
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
   .container {
-    inline-size: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -85,7 +85,7 @@ body {
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
   .container {
-    inline-size: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
   }

@@ -1,7 +1,8 @@
 /* Стилі для мобільних пристроїв тут */
 
 .about-us-section {
-  padding-top: 40px;  
+  margin-top: -50px;
+  padding-bottom: 40px;
 }
 
 .about-us-container {
@@ -9,80 +10,81 @@
 }
 
 .about-us-section-section-one {
-  background-color: #FBFBFB;  
+  background-color: #fbfbfb;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
-  padding: 40px 20px 60px 20px;
+  padding: 40px 20px 65px 20px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
 }
 
 .about-us-heading {
-  color: #1B414B;
+  color: #1b414b;
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 .about-us-item-first {
-  color: #1B414B;
+  color: #1b414b;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1; 
+  line-height: 1;
   margin-bottom: 20px;
-  
 }
 
 .about-us-item-second {
   color: #040306;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.17; 
+  line-height: 1.17;
   opacity: 0.4;
 }
 
 .about-us-section-section-two {
-border-radius: 26px;
-overflow: hidden;
-margin-top: -20px;
+  border-radius: 26px;
+  overflow: hidden;
+  margin-top: -25px;
 }
 
+.about-us-photo {
+  background: url(<path-to-image>), lightgray -181.984px -4.244px / 182.464% 109.429% no-repeat;
+} 
 
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
 
   .about-us-section {
-    padding-top: 75px;  
-  }
-  
-
-.about-us-container {
-  max-width: 734px;
-}
-
-.about-us-section-section-one {
-  padding: 50px 136px 70px 32px;
-  gap: 50px;
-}
-
-.about-us-heading {
-  font-size: 48px;
-}
-
-.about-us-item-first {
-  font-size: 23px;
-  max-width: 389px;
-}
-
-.about-us-item-second {
-  font-size: 13px;
-  line-height: 1.15;
-  max-width: 385px;
+    padding-bottom: 75px;
   }
 
+  .about-us-container {
+    max-width: 734px;
+  }
+
+  .about-us-section-section-one {
+    padding: 50px 136px 75px 32px;
+    gap: 50px;
+  }
+
+  .about-us-heading {
+    font-size: 48px;
+  }
+
+  .about-us-item-first {
+    font-size: 23px;
+    max-width: 389px;
+  }
+
+  .about-us-item-second {
+    font-size: 13px;
+    line-height: 1.15;
+    max-width: 385px;
+  }
 }
 
 /* Десктоп (з 1280px) */
@@ -92,24 +94,31 @@ margin-top: -20px;
   .about-us-container {
     max-width: 1210px;
   }
-  
+
   .about-us-section-section-one {
-  flex-direction: row;
-  column-gap: 189px;
-  padding: 50px 50px 120px 50px;
+    flex-direction: row;
+    column-gap: 189px;
+    padding: 50px 50px 125px 50px;
   }
-  
+
   .about-us-heading {
-  max-width: 537px; 
+    max-width: 537px;
   }
 
   .about-us-list {
-  max-width: 354px;
+    max-width: 354px;
   }
-
 }
 
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
   /* Стилі для десктопу тут */
+
+  .about-us-container {
+    max-width: 1370px;
+  }
+
+  .about-us-section-section-one {
+    column-gap: 299px;
+  }
 }
