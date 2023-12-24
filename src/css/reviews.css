@@ -1,3 +1,161 @@
+/* Стилі для мобільних пристроїв тут */
+.reviews-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.reviews-name-section {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-servise {
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Inter;
+  width: 335px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.02em;
+}
+.reviews-servise-text {
+  color: #fbfbfb;
+  width: 332px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: -0.02em;
+  opacity: 0.4;
+}
+
+.reviews-customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-customers-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  height: 282px;
+  padding: 32px 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fbfbfb;
+  align-items: center;
+  text-align: center;
+}
+.reviews-customers-text {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+  gap: 8px;
+  margin-top: 24px;
+  align-items: center;
+  text-align: center;
+}
+.reviews-customers-name {
+  color: #040306;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1; /* 19.8px */
+  letter-spacing: -0.02em;
+}
+.reviews-customers-words {
+  color: rgba(4, 3, 6, 0.4);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4; /* 22.4px */
+  letter-spacing: -0.02em;
+}
+
+.reviews-customers img {
+  max-width: 100%;
+  height: auto;
+
+  display: block;
+
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .reviews-customers-list li:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+/* =====================Планшети (з 768px) =========================*/
+@media screen and (min-width: 768px) {
+  /* Стилі для планшетів тут */
+
+  .reviews-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .reviews-servise {
+    width: 704px;
+    font-size: 48px;
+  }
+
+  .reviews-servise-text {
+    width: 571px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .reviews-name-section {
+    margin-bottom: 75px;
+  }
+  .reviews-customers-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+  }
+  .reviews-customers-list-item {
+    width: 335px;
+    height: 282px;
+    padding: 32px 8px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #fbfbfb;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-customers-list li:last-child {
+    display: none;
+  }
+}
+/* ==================Десктоп (з 1280px)========================== */
+@media screen and (min-width: 1280px) {
+  /* Стилі для десктопу тут */
+
+  .reviews-servise {
+    width: 854px;
+  }
+  .reviews-customers-list {
+    gap: 26px;
+  }
+}
+
+/* Десктоп (з 1440px) */
+@media screen and (min-width: 1440px) {
+  /* Стилі для десктопу тут */
+}
+=======
 .reviews-section-li-title {
   color: #040306;
   text-align: center;
