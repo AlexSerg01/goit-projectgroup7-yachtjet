@@ -144,6 +144,34 @@
   outline: none; /* Забираємо контур, який з'являється при фокусі */
 }
 
+.up-line {
+  position: fixed;
+  z-index: 99999;
+  right: 20px;
+  bottom: 10px;
+}
+
+.up-line-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; /* розмір кнопки */
+  height: 30px; /* розмір кнопки */
+  border: 2px solid #1b414b; /* товщина та колір рамки */
+  border-radius: 50%; /* зробити круглою кнопку */
+  background-color: #fbfbfb; /* колір фону кнопки */
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.up-line-a:hover,
+.up-line-a:focus {
+  background-color: rgba(251, 251, 251, 0.7);
+}
+
+.up-line-icon {
+  fill: #1b414b;
+}
 /* ============================ */
 /* =====Планшети (з 768px)===== */
 /* ============================ */
@@ -226,6 +254,11 @@
     margin-top: 50px;
     margin-bottom: 75px;
   }
+
+  .up-line {
+    right: 30px;
+    bottom: 30px;
+  }
 }
 /* ============================= */
 /* ====Десктоп (з 1280px)======= */
@@ -265,6 +298,11 @@
 
   .tab-len {
     white-space: nowrap;
+  }
+
+  ..up-line-a {
+    width: 40px;
+    height: 40px;
   }
 }
 
