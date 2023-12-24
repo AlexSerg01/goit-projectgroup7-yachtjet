@@ -146,7 +146,7 @@
 
 .up-line {
   position: fixed;
-  z-index: 99999;
+  z-index: 700;
   right: 20px;
   bottom: 10px;
 }
