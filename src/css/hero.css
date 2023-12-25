@@ -28,7 +28,7 @@
 .hero-blok {
   max-width: 335px;
   margin: 0 auto;
-  padding: 280px 0;
+  padding: 260px 0 302px 0;
 }
 
 .hero-title {
@@ -98,10 +98,10 @@
 
   .hero-blok {
     max-width: 704px;
+    padding: 280px 0 282px 0;
   }
 
   .hero-title {
-    padding-top: 280px;
     font-size: 70px;
   }
 
@@ -117,9 +117,8 @@
   .hero-link {
     font-size: 18px;
     line-height: 1.1;
-    width: 179px;
+    max-width: 179px;
     padding: 16px 40px;
-    margin-bottom: 215px;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -158,15 +157,14 @@
 
   .hero-blok {
     max-width: 1001px;
+    padding: 235px 0 215px 0;
   }
 
   .hero-title {
     font-size: 80px;
-    padding-top: 235px;
   }
 
   .hero-link {
-    margin-bottom: 180px;
   }
 
   /* Стилі для десктопу тут */
