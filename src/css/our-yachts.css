@@ -1,4 +1,8 @@
 /* Стилі для мобільних пристроїв тут */
+.our-yachts-section {
+  padding: 40px 0;
+}
+
 .our-yachts-section-title {
   max-width: 319px;
   color: #fbfbfb;
@@ -8,7 +12,8 @@
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
-  margin: 40px auto;
+  padding: 0 0 40px 0;
+  margin: 0 auto;
 }
 
 .yachts-list {
@@ -16,6 +21,7 @@
   overflow: hidden;
   position: relative; /* Додано для коректного відображення вмісту */
   width: 100%;
+  padding-bottom: 40px;
   gap: 20px;
 }
 
@@ -28,17 +34,16 @@
   width: 100%;
   background-color: #fbfbfb;
   border-radius: 24px;
-  padding: 0 16px;
+  padding: 16px;
 }
 
 .yacht-picture {
   max-width: 302px;
-  height: 240px;
+  max-height: 240px;
   flex-shrink: 0;
   border-radius: 24px;
-  margin-top: 16px;
   object-fit: cover;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
 .yacht-name-div {
@@ -48,10 +53,6 @@
   width: 270px;
   gap: 22px;
   padding-bottom: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 16px;
-
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
 }
 
@@ -83,16 +84,21 @@
 }
 
 .property-tables {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
   margin-top: 0;
-  width: 270px;
-  margin-left: 32px;
-  margin-right: 32px;
+  padding: 16px 0;
+}
 
-  margin-bottom: 32px;
+.property-tables-li {
+  display: flex;
+  justify-content: flex-start;
+  row-gap: 6px;
+  gap: 114px;
 }
 
 .tab-property {
-  padding-right: 106px;
   color: #040306;
   font-size: 14px;
   font-style: normal;
@@ -101,6 +107,7 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   opacity: 0.4;
+  width: 62px;
 }
 
 .tab-len {
@@ -110,6 +117,7 @@
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: left;
   white-space: nowrap;
 }
 
@@ -127,13 +135,13 @@
   letter-spacing: -0.02em;
   background-color: inherit;
   display: flex;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 14px 32px;
   align-items: center;
   gap: 10px;
   border-radius: 15px;
   border: 1px solid rgba(251, 251, 251, 0.35);
-  transition: all 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   text-decoration: none; /* Додаємо, щоб забрати підкреслення від посилання */
 }
 
@@ -177,71 +185,48 @@
 /* ============================ */
 @media screen and (min-width: 768px) {
   /* Стилі для планшетів тут */
+  .our-yachts-section {
+    padding: 75px 0;
+  }
+
   .our-yachts-section-title {
     max-width: 645px;
-    color: #fbfbfb;
-    text-align: center;
     font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin: 75px auto;
+    padding-bottom: 75px;
   }
 
   .yachts-list {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
     gap: 32px;
   }
 
   .yacht-list-li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 336px;
-    flex-shrink: 0;
-    background-color: #fbfbfb;
-    border-radius: 24px;
   }
 
   .yacht-picture {
     max-width: 304px;
-    height: 268px;
-    flex-shrink: 0;
-    object-fit: cover;
+    max-height: 268px;
   }
 
   .yacht-name-div {
     width: 272px;
-    margin-left: 32px;
-    margin-right: 32px;
   }
 
   .arrow {
-    overflow: hidden;
-    color: #1b414b;
-
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
     letter-spacing: -0.05em;
-    text-transform: uppercase;
   }
 
   .status {
-    white-space: nowrap;
     font-size: 13px;
     line-height: 1.18;
     letter-spacing: 0.03em;
   }
 
-  .tab-property {
-    padding-right: 104px;
+  .property-tables-li {
+    gap: 104px;
   }
 
   .yacht-list-li:last-child {
@@ -251,8 +236,6 @@
   .our-yachts-rent-button {
     font-size: 18px;
     padding: 16px 40px;
-    margin-top: 50px;
-    margin-bottom: 75px;
   }
 
   .up-line {
@@ -268,7 +251,7 @@
   .our-yachts-section-title {
     max-width: 714px;
     font-size: 48px;
-    margin: 75px auto;
+    padding-bottom: 75px;
   }
 
   .yachts-list {
@@ -278,13 +261,14 @@
   .yacht-list-li {
     width: 377px;
   }
+
   .yacht-list-li:last-child {
     display: flex;
   }
 
   .yacht-picture {
     max-width: 345px;
-    height: 268px;
+    max-height: 268px;
     object-fit: cover;
   }
 
@@ -292,12 +276,8 @@
     width: 313px;
   }
 
-  .tab-property {
-    padding-right: 157px;
-  }
-
-  .tab-len {
-    white-space: nowrap;
+  .property-tables-li {
+    gap: 145px;
   }
 
   .up-line-a {
