@@ -125,7 +125,7 @@
     padding: 0;
   }
   .reviews-customers-list-item {
-    width: 335px;
+    max-width: 335px;
     height: 282px;
     padding: 32px 8px;
     flex-shrink: 0;
@@ -154,4 +154,10 @@
 /* Десктоп (з 1440px) */
 @media screen and (min-width: 1440px) {
   /* Стилі для десктопу тут */
+
+  .reviews-customers-list-item {
+    max-width: 376px;
+    height: 282px;
+    padding: 32px 28px;
+  }
 }
