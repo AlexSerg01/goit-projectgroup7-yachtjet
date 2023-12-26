@@ -1,20 +1,27 @@
 /* Стилі для мобільних пристроїв тут */
+.footer {
+  padding-top: 40px;
+}
+
 .container-footer {
-  width: 355px;
-  height: 412px;
+  max-width: 355px;
+  height: 100%;
   flex-shrink: 0;
   border-radius: 24px 24px 0px 0px;
   background: #1b414b;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  margin-top: 40px;
 }
 
 .container-logo-list {
   display: flex;
   align-items: start;
   padding-top: 40px;
+  flex-shrink: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 .logo-footer {
   width: 52px;
@@ -27,18 +34,20 @@
   padding-left: 30px;
   display: block;
   padding: 0;
-  margin-left: 30px;
 }
 
 .list-footer {
   display: flex;
   gap: 4px;
   align-items: center;
-  margin-left: 37px;
+  margin-left: auto;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-left: auto;
 }
 
 .list-item-footer {
-  flex-shrink: 0;
+  flex-shrink: 1;
   color: #fbfbfb;
   text-align: center;
   font-family: Inter;
@@ -67,7 +76,7 @@
 }
 
 .title-footer {
-  width: 279px;
+  max-width: 279px;
   color: #fbfbfb;
   text-align: center;
   font-family: Inter;
@@ -89,6 +98,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 82px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 .adventures-privacy {
   color: rgba(251, 251, 251, 0.4);
@@ -128,15 +139,29 @@
   stroke: rgba(251, 251, 251, 0.8);
   transition: color all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .container-footer {
+  }
+  .list-footer {
+  }
+  .list-item-footer {
+  }
+}
 /* Планшети (з 768px) */
 @media screen and (min-width: 768px) {
   .container-footer {
-    width: 736px;
+    max-width: 736px;
     height: 418px;
     flex-shrink: 0;
     border-radius: 24px 24px 0px 0px;
     background: #1b414b;
-    margin-top: 70px;
   }
 
   .container-logo-list-icon {
@@ -165,7 +190,7 @@
   }
 
   .title-footer {
-    width: 640px;
+    max-width: 640px;
     height: 96px;
     color: #fbfbfb;
     text-align: center;
@@ -224,11 +249,22 @@
 /* Десктоп (з 1280px) */
 @media screen and (min-width: 1280px) {
   .container-footer {
-    width: 1230px;
+    max-width: 1230px;
     height: 418px;
     flex-shrink: 0;
     border-radius: 24px 24px 0px 0px;
     background: #1b414b;
+  }
+
+  .container-logo-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .list-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .logo-footer {
@@ -248,7 +284,7 @@
   }
 
   .title-footer {
-    width: 699px;
+    max-width: 699px;
   }
 }
 
